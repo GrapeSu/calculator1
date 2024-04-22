@@ -16,8 +16,8 @@ public class CalculatorController {
         return String.valueOf(calculator.sum(a, b));
     }
 
-    @RequestMapping("/substract")
-    String substract(@RequestParam("a") Integer a, @RequestParam("b") Integer b)
+    @RequestMapping("/subtract")
+    String subtract(@RequestParam("a") Integer a, @RequestParam("b") Integer b)
     {
         return String.valueOf(calculator.subtract(a, b));
     }
