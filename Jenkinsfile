@@ -27,8 +27,17 @@ pipeline {
         }
 
         stage("Docker build")
-        {    steps {
+        {
+             steps {
                 sh "docker build -t alan171223/calculator1 ."
+             }
+        }
+
+        stage("Docker push")
+        {
+             steps
+             {
+                sh "docker push alan171223/calculator"
              }
         }
 
