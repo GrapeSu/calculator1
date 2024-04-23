@@ -37,7 +37,7 @@ pipeline {
         {
              steps
              {
-                sh "docker push alan171223/calculator"
+                sh "docker push alan171223/calculator1"
              }
         }
 
