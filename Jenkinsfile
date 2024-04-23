@@ -77,7 +77,7 @@ pipeline {
          {
               steps
               {
-                  sleep time: 6, unit: 'SECONDS'
+                  sleep time: 30, unit: 'SECONDS'
                   sh "chmod +x acceptance_test.sh && ./acceptance_test.sh"
               }
          }
