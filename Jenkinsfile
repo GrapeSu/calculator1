@@ -69,7 +69,7 @@ pipeline {
          {
               steps
               {
-                 sh "docker run -d --rm -p 8765:8080 --name calculator1 alan171223/calculator1"
+                 sh "docker run -d --rm -p 8088:8088 --name calculator1 alan171223/calculator1"
               }
          }
 
