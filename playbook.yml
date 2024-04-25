@@ -37,9 +37,9 @@
   become: yes
   become_method: sudo
   tasks:
-    - name: ensure Java Runtime Environment is installed
+    - name: ensure Java Runtime Environment (openjdk-17-jdk) is installed
       apt:
-        name: default-jre
+        name: openjdk-17-jdk
         state: present
         update_cache: yes
     - name: create directory for Calculator
