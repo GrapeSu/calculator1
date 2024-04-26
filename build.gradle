@@ -21,6 +21,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'junit:junit:4.13'
+	implementation 'com.hazelcast:hazelcast:5.3.6'
 	checkstyle "com.puppycrawl.tools:checkstyle:${checkstyle.toolVersion}"
 }
 
