@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class Calculator {
-    @Cacheable("sum")
+    //@Cacheable("sum")
     public int sum(int a,int b) {
         try {
             Thread.sleep(3000);
@@ -15,7 +15,7 @@ public class Calculator {
         }
         return a+b;
     }
-    @Cacheable("subtract")
+    //@Cacheable("subtract")
     public int subtract(int a,int b) {
         try {
             Thread.sleep(3000);

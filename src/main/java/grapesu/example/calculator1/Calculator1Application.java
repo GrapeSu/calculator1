@@ -13,10 +13,10 @@ public class Calculator1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Calculator1Application.class, args);
 	}
-	@Bean
-	public ClientConfig hazelcastClientConfig() {
-		ClientConfig clientConfig = new ClientConfig();
-		clientConfig.getNetworkConfig().addAddress("49.234.184.13");
-		return clientConfig;
-	}
+//	@Bean
+//	public ClientConfig hazelcastClientConfig() {
+//		ClientConfig clientConfig = new ClientConfig();
+//		clientConfig.getNetworkConfig().addAddress("49.234.184.13");
+//		return clientConfig;
+//	}
 }
