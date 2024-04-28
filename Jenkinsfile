@@ -61,7 +61,7 @@ pipeline {
          {
               steps
               {
-                 sh "docker push alan171223/calculator1:1.1.1"
+                 sh "docker push alan171223/calculator1:${BUILD_TIMESTAMP}"
               }
          }
 
